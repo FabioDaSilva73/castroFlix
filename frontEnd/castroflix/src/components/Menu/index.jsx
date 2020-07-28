@@ -1,17 +1,19 @@
 import React from "react";
 import Logo from "../../assets/logoCastroFlix.png"
-import ButtonLink from "./components/ButtonLink";
+import Button from '../Button'
+//import ButtonLink from "./components/ButtonLink";
 import "./Menu.css";
+import { Link } from 'react-router-dom';
 
  
-export default proos => (
+export default props => (
     <nav className="Menu">
-    <a href="/">
+    <Link to="/">
       <img className="Logo" src={Logo} alt="CastroFlixLogo" />
-    </a>
-    <ButtonLink className="ButtonLink" href=" ">
+    </Link>
+    <Button  className="ButtonLink" to="/cadastro/video">
     Novo Video
-    </ButtonLink>
+    </Button>
   </nav>
 )
 
