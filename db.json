@@ -1,0 +1,208 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Desenhos Antigos",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Para Familia",
+        "url": "https://www.youtube.com/watch?v=1-CQJnNf6l4"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Top Antigos",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Meu Top Desenhos Antigos",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Animes",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Animes",
+        "url": "https://www.alura.com.br/cursos-online-mobile"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Top Animes",
+      "cor": "#655548",
+      "link_extra": {
+        "text": "Meu Top Animes",
+        "url": "https://www.alura.com.br/cursos-online-mobile"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Séries",
+      "cor": "red",
+      "link_extra": {
+        "text": "Meu Top Série",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    }
+  ],
+
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Chaves",
+      "url": "https://www.youtube.com/watch?v=IbtHkgM8kpQ"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Tom e Jarry",
+      "url": "https://www.youtube.com/watch?v=0EHYmchiwgk"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Pica Pau",
+      "url": "https://www.youtube.com/watch?v=Q7MaTqgtoxE"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Looney Tunes",
+      "url": "https://www.youtube.com/watch?v=sOseKTHU1mY"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Pato Donald",
+      "url": "https://www.youtube.com/watch?v=13D7NctaJEs"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Mortal Kombat",
+      "url": "https://www.youtube.com/watch?v=p46KQb54LIM"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Beyblade",
+      "url": "https://www.youtube.com/watch?v=eNi_vAw7pbE"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Johnny Test",
+      "url": "https://www.youtube.com/watch?v=J9U1MaNs-rU"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "titulo": "Johnny Test",
+      "url": "https://www.youtube.com/watch?v=J9U1MaNs-rU"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Dragon Ball",
+      "url": "https://www.youtube.com/watch?v=ER1oFYgoCPY"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Yu-Gi-Oh",
+      "url": "https://www.youtube.com/watch?v=5fUa75OWUlY"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Cavaleiros do Zodíaco",
+      "url": "https://www.youtube.com/watch?v=3X-O8NWvs_4"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Scooby Doo",
+      "url": "https://www.youtube.com/watch?v=tr8YUX3zXC0"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "Bob Espoja",
+      "url": "https://www.youtube.com/watch?v=_pvzIiKW9PY"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "Timão e Pumba",
+      "url": "https://www.youtube.com/watch?v=gRefLrHkZhg"
+    },
+    {
+      "id": 16,
+      "categoriaId": 2,
+      "titulo": "Futebol de Rua",
+      "url": "https://www.youtube.com/watch?v=bSdopYP69Og"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Naruto",
+      "url": "https://www.youtube.com/watch?v=yzCh8Vu9Ek0"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Black Couver",
+      "url": "https://www.youtube.com/watch?v=Ib4Oo-LFyNk"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "One Piece",
+      "url": "https://www.youtube.com/watch?v=XL2dzl-mac0"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "Boruto",
+      "url": "https://www.youtube.com/watch?v=mgtNw3ZvC8g"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Black Couver",
+      "url": "https://www.youtube.com/watch?v=Ib4Oo-LFyNk"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Naruto",
+      "url": "https://www.youtube.com/watch?v=yzCh8Vu9Ek0"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Dragon Ball",
+      "url": "https://www.youtube.com/watch?v=ER1oFYgoCPY"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Marlon",
+      "url": "https://www.youtube.com/watch?v=buEuf-dbR9g"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "The Big Bang Theory",
+      "url": "https://www.youtube.com/watch?v=2-9mUuGXOOs"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Blindspot",
+      "url": "https://www.youtube.com/watch?v=RqZkit-aCTo"
+    }
+  ]
+}
