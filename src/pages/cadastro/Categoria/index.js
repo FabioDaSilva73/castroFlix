@@ -7,14 +7,23 @@ import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
-    cor: '',
+    cor:'',
   };
 
   const { handleChange, values, clearForm } = useForm(valoresIniciais);
 
+
+
+  //enfeite
+  const [categoryEffect, setCategoryEffect] = useState([]);
+  
+
+
+  
   const [categorias, setCategorias] = useState([]);
+
 
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
@@ -28,6 +37,9 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
+    }, []);
+
+
 
     // setTimeout(() => {
     //   setCategorias([
@@ -46,36 +58,38 @@ function CadastroCategoria() {
     //     },
     //   ]);
     // }, 4 * 1000);
-  }, []);
-
+    // }, []);
+    
   return (
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.nome}
+        {values.titulo}
       </h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
-        setCategorias([
-          ...categorias,
+        alert("Ajustarei os erros em breve");
+        setCategoryEffect([
+          ...categoryEffect,
           values,
         ]);
 
         clearForm();
-      }}
-      >
+      }}>
 
         <FormField
           label="Nome da Categoria"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          required
+          value={values.titulo}
           onChange={handleChange}
         />
 
         <FormField
           label="Descrição"
           type="textarea"
+          required
           name="descricao"
           value={values.descricao}
           onChange={handleChange}
@@ -84,6 +98,7 @@ function CadastroCategoria() {
         <FormField
           label="Cor"
           type="color"
+          required
           name="cor"
           value={values.cor}
           onChange={handleChange}
@@ -114,6 +129,5 @@ function CadastroCategoria() {
       </Link>
     </PageDefault>
   );
-}
-
+} 
 export default CadastroCategoria;

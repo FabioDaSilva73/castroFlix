@@ -25,6 +25,7 @@ ContentAreaContainer.Item = styled.div`
 `;
 
 ContentAreaContainer.Category = styled.h1`
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -72,6 +73,8 @@ export const BannerMainContainer = styled.section`
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
   background-position: center;
+  border: solid 2px;
+  border-radius: 10px;
   @media (max-width: 800px) {
     height: auto;
     min-height: 50vh;
